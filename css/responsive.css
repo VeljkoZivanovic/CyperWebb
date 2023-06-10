@@ -1,0 +1,188 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 1199px) { 
+
+	header {
+	    height: 95px;
+	}
+
+	#menu li {
+	    margin: 0 20px;
+	}
+
+	#menu li a {
+	    padding: 12px 30px;
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+
+	.best_hosting_wrapper {
+	    margin-top: 95px;
+	}
+
+	.package_ul li br {
+		display: none;
+	}
+
+	
+}
+
+@media (max-width: 991px) {
+
+	header {
+	    background: #E8BBCA;
+	    height: 75px;
+	}
+
+	header.sticky {
+		height: 75px;
+	}
+
+	#menu{
+		position: fixed;
+	    height: 100%;
+	    width: 100%;
+	    right: -100%;
+	    top: 0;
+	    padding: 100px 0;
+	    background-color: #E8BBCA;
+	    z-index: -1;
+	    -webkit-transition: 0.4s;
+	    -o-transition: 0.4s;
+	    transition: 0.4s;
+	}
+
+	#menu.open{
+		right: 0;
+	}
+
+	#menu li {
+	    display: block;
+	    padding: 0 15px;
+	    margin: 0 auto 20px auto;
+	    text-align: center;
+	}
+
+	#menu li a.nav-link {
+	    width: auto;
+	    display: -webkit-inline-box;
+	    display: -ms-inline-flexbox;
+	    display: inline-flex;
+	}
+
+	.hamberger_menu {
+		display: block;
+	}
+
+	.logo a {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+
+	.logo a img {
+	    margin-right: 15px;
+	    width: 50px;
+	}
+	
+	.best_hosting_wrapper {
+	    margin-top: 74px;
+	    background: #FFD3BA;
+	}
+
+	.best_wrap_one {
+	    padding: 50px 0 20px 0;
+	}
+
+	.best_hosting_wrapper .mt_40 {
+	    margin-top: 30px;
+	}
+
+	footer {
+		background: #E8BBCA;
+	}
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	
+	.search_box {
+	    margin: 30px auto auto auto;
+	}
+
+	.address_box {
+		margin: 30px auto auto 0;
+	}
+
+	.footer_para br {
+		display: none;
+	}
+
+	.footer_logo img {
+	    width: 50px;
+	}
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	
+	.hosting_box {
+	    height: auto;
+	    width: 230px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.search_box {
+	    width: 100%;
+	}
+
+	.search_box input {
+		width: 100%;
+	}
+
+	.order_2 {
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+	}
+
+	.order_1 {
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+	}
+
+	.address_box input {
+		height: 40px;
+	}
+
+	.submit_btn {
+		height: 40px;
+	}
+
+	.footer_wrap {
+	    padding: 20px 0;
+	}
+
+	.footer_para {
+	    font-size: 12px;
+	    line-height: 14px;
+	}
+
+
+
+}
+
